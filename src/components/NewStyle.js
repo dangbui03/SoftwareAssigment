@@ -1,9 +1,9 @@
 import React from 'react';
-import './HeroSection.css';
+import './NewStyle.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
-function HeroSection({
+function NewStyle({
   lightBg,
   topLine,
   lightText,
@@ -44,15 +44,12 @@ function HeroSection({
                   {description}
                 </p>
                 <Link to='/sign-up'>
-                  <Button buttonSize='btn--wide' buttonColor='blue'>
-                    {buttonLabel}
-                  </Button>
                 </Link>
               </div>
             </div>
             <div className='col'>
               <div className='home__hero-img-wrapper'>
-                <img src={img } alt={alt} className='home__hero-img' />
+                <img src={img } alt={alt} className='home__img' />
               </div>
             </div>
           </div>
@@ -62,4 +59,4 @@ function HeroSection({
   );
 }
 
-export default HeroSection;
+export default NewStyle;
