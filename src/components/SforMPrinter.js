@@ -24,7 +24,7 @@ function SforMPrinter ({
         >
           <div className='container'>
 {/*=============================== printer 1 page start here =====================================*/}
-          <h1 className={lightText ? 'heading' : 'heading dark'}>
+          <h1 className={lightText ? 'title' : 'title dark'}>
                     {headline}
             </h1>
             <div
@@ -77,7 +77,6 @@ function SforMPrinter ({
               </div>
             </div>
 {/*======================= Printer 2 page from here ============================== */}
-
             <div
               className='row home__hero-row lightBg'
               style={{
