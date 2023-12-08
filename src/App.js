@@ -6,8 +6,7 @@ import Products from './components/pages/Products/Products';
 import SignUp from './components/pages/SignUp/SignUp';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Footer from './components/pages/Footer.js/Footer';
-
+import Login from './components/pages/SignUp/Data';
 function App() {
   return (
     <Router>
@@ -16,11 +15,9 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/services' element={<Services />} />
         <Route path='/products' element={<Products />} />
-        <Route path='/sign-up' element={<SignUp />} />
-      </Routes>
-      <Footer />
+        <Route path='/sign-up' element={<Login />} />
+      </Routes> 
     </Router>
   );
 }
-
 export default App;
