@@ -7,6 +7,7 @@ import SignUp from './components/pages/SignUp/SignUp';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/pages/Footer.js/Footer';
+import ViewInfo from './components/pages/ViewInfo/ViewInfo'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/services' element={<Services />} />
         <Route path='/products' element={<Products />} />
         <Route path='/sign-up' element={<SignUp />} />
+        <Route path='/view-info' element={<ViewInfo />} />
       </Routes>
       <Footer />
     </Router>
