@@ -2,15 +2,13 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Printer 1: Name of Printer',
-  headline: 'All the services from view to edit printers',
+  topLine: 'Smart Printing Solutions',
+  headline: 'Effortless Printing with Intelligent Features',
   description:
-    'Ready to use.',
-  buttonLabel: 'View Printer',
-  buttonLabel1:'Edit Printer',
-  buttonLabel2: 'Enable/Disable',
+    'Discover our state-of-the-art smart printing solutions that provide seamless and intelligent printing experiences for your business.',
+  buttonLabel: 'Explore Features',
   imgStart: '',
-  img: 'images/Printer-details.png',
+  img: 'images/svg-1.svg',
   alt: 'Smart Printer'
 };
 
