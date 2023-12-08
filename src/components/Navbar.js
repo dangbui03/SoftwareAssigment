@@ -56,7 +56,7 @@ function Navbar() {
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
-                  Services
+                  Manage Printer
                 </Link>
               </li>
               <li className='nav-item'>
