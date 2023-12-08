@@ -14,7 +14,6 @@ Functionalities
 *   View information and status of printers available in the system.
 *   Add printers to the system.
 *   Edit information and status of printers in the system.
-*   Remove printers from the system.
 
 # Getting Started with Create React App
 
