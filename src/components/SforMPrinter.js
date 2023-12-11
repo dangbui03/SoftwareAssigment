@@ -48,7 +48,7 @@ function SforMPrinter ({
                     Locate in B4-303.
                   </p>
                     <div>
-                        <Link to='/sign-up'>
+                        <Link to='/printer-info1'>
                             <Button buttonSize='btn--wide' buttonColor='blue'>
                                 {buttonLabel}
                             </Button>
