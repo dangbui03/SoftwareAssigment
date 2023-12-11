@@ -55,7 +55,7 @@ function SforMPrinter ({
                     Locate in B4-303.
                   </p>
                     <div>
-                        <Link to='/sign-up'>
+                        <Link to='/printer-info1'>
                             <Button buttonSize='btn--wide' buttonColor='blue'>
                                 {buttonLabel}
                             </Button>
@@ -105,7 +105,7 @@ function SforMPrinter ({
                     Locate in C6-404.
                   </p>
                   <div>
-                    <Link to='/sign-up'>
+                    <Link to='/printer-info2'>
                         <Button buttonSize='btn--wide' buttonColor='blue'>
                             {buttonLabel}
                         </Button>
@@ -154,7 +154,7 @@ function SforMPrinter ({
                     Locate in A4-404.
                   </p>
                   <div>
-                    <Link to='/sign-up'>
+                    <Link to='/printer-info3'>
                         <Button buttonSize='btn--wide' buttonColor='blue'>
                             {buttonLabel}
                         </Button>

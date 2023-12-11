@@ -43,7 +43,8 @@ function SforAddp({
                 <p
                   className={ 'printer4_details dark' }
                 >
-                    <div>
+                <ul>
+                    <li>
                         <label>
                             Brand:
                                 <input
@@ -52,8 +53,8 @@ function SforAddp({
                                     placeholder=""
                                 />
                         </label>
-                    </div>
-                    <div>
+                    </li>
+                    <li>
                         <label>
                             Model:
                                 <input
@@ -62,7 +63,7 @@ function SforAddp({
                                     placeholder=""
                                 />
                         </label>
-                    </div><div>
+                    </li><li>
                         <label>
                             Status: 
                                 <input
@@ -71,7 +72,41 @@ function SforAddp({
                                     placeholder=""
                                 />
                         </label>
-                    </div>
+                    </li>
+                </ul>
+                    Location:<br/>
+                <ul>
+                    <li>
+                        <label>
+                            Campus: 
+                                <input
+                                    className='no-border-input'
+                                    type="text"
+                                    placeholder=""
+                                />
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Building: 
+                                <input
+                                    className='no-border-input'
+                                    type="text"
+                                    placeholder=""
+                                />
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            Room: 
+                                <input
+                                    className='no-border-input'
+                                    type="text"
+                                    placeholder=""
+                                />
+                        </label>
+                    </li>
+                    </ul>
                   Description: <br/>
                   {description}<br/>
                   Open from 9am - 4pm on weekends.
