@@ -3,7 +3,7 @@ import { Button } from './Button';
 import { Link} from 'react-router-dom';
 
 
-function SforMPrinter ({
+function MPrinter4 ({
     lightBg,
     topLine,
     lightText,
@@ -62,7 +62,7 @@ function SforMPrinter ({
                         </Link> 
                     </div>       <br/>             
                     <div>
-                        <Link to='/addprinter'>
+                        <Link to='/sign-up'>
                             <Button buttonSize='btn--wide' buttonColor='blue'>
                                 {buttonLabel1}
                             </Button>
@@ -180,6 +180,55 @@ function SforMPrinter ({
                 </div>
               </div>
             </div>
+{/*======================= Printer 4 page from here ============================== */}
+            <div><br/><br/></div>
+            <div
+              className='row home__hero-row lightBg'
+              style={{
+                display: 'flex',
+                flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'
+              }}
+            >
+              <div className='col'>
+                <div className='home__hero-text-wrapper'>
+                  <div className='printer_name'>Printer 4: Name of printer</div>
+                  <p
+                    className={
+                      lightTextDesc
+                        ? 'printer_details'
+                        : 'home__hero-subtitle dark'
+                    }
+                  >
+                    {description}<br/>
+                    Locate in A5-Hall.
+                  </p>
+                  <div>
+                    <Link to='/sign-up'>
+                        <Button buttonSize='btn--wide' buttonColor='blue'>
+                            {buttonLabel}
+                        </Button>
+                    </Link> 
+</div>       <br/>             <div>
+                    <Link to='/sign-up'>
+                        <Button buttonSize='btn--wide' buttonColor='blue'>
+                            {buttonLabel1}
+                        </Button>
+                    </Link>
+</div>       <br/>             <div>
+                    <Link to='/sign-up'>
+                        <Button buttonSize='btn--wide' buttonColor='blue'>
+                            {buttonLabel2}
+                        </Button>
+                    </Link>
+                    </div>
+                </div>
+              </div>
+              <div className='col'>
+                <div className='home__hero-img-wrapper'>
+                  <img src={img} alt={alt} className='home__img2' />
+                </div>
+              </div>
+            </div>
 {/*====================================== printer page end here =====================================*/}
           </div>
         </div>
@@ -187,4 +236,4 @@ function SforMPrinter ({
     );
   }
   
-  export default SforMPrinter;
+  export default MPrinter4;

@@ -35,6 +35,13 @@
   font-size: 20px;
 }
 
+.btn--small {
+  padding: 8px 15px;
+  font-size: 20px;
+  width: 20%;
+}
+
+
 .btn--mobile {
   text-align: center;
   border-radius: 4px;
@@ -110,5 +117,4 @@
 .green:hover {
   background-color: #242424;
 }
-
 
