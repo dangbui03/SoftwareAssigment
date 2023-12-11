@@ -1,15 +1,14 @@
-
 import SforMPrinter from '../../SforMPrinter';
 import { homeObjOne, homeObjThree} from './Data';
 import MPrinter4 from '../../MPrinter4';
 import Footer from '../Footer.js/Footer';
-function Services() {
+function Manage() {
   return (
-    <>
-      <SforMPrinter {...homeObjOne} /> 
+    <> 
+      <MPrinter4 {...homeObjOne}/>
       <Footer></Footer>          
     </>
   );
 }
 
-export default Services;
+export default Manage;

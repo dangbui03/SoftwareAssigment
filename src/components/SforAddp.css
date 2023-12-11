@@ -1,16 +1,15 @@
 
 
-
 .home__hero-section {
     color: #fff;
     padding: 160px 0;
   }
   
-  .home__hero-row {
+.home__hero-row {
     align-items: center;
   }
   
-  .row {
+.row {
     display: flex;
     margin-right: -15px;
     margin-bottom: -15px;
@@ -61,7 +60,6 @@
     color: #f7f8fa;
   }
   
-
   .dark {
     color: #1c2237;
   }
@@ -75,7 +73,7 @@
   }
   
 
-  .printer_details {
+  .printer4_details {
     max-width: 440px;
     margin-bottom: 35px;
     font-size: 25px;
@@ -118,3 +116,21 @@
     }
   }
   
+/* styles.css */
+.no-border-input {
+    margin-left: 10px;
+    border: none;
+    font-size: 25px;
+    line-height: 40px;
+    transition: border-bottom 0.3s ease; /* Optional: Add a smooth transition effect */
+  }
+  
+  .no-border-input:focus {
+    outline: none; /* Remove the default focus outline */
+    border-bottom: 2px solid blue; /* Change the border style when focused */
+  }
+  
+
+li {
+    margin-left: 15px ;
+}

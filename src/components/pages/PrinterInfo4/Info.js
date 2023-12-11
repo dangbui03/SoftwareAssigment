@@ -8,7 +8,7 @@ function Products() {
   return (
     <>
       <PrinterInfo {...homeObjOne} /> 
-      <Footer></Footer>
+  
     </>
   );
 }
