@@ -3,7 +3,7 @@ import { Button } from './Button';
 import { Link} from 'react-router-dom';
 
 
-function SforMPrinter ({
+function MPrinter4en ({
     lightBg,
     topLine,
     lightText,
@@ -69,9 +69,9 @@ function SforMPrinter ({
                         </Link>
                     </div>       <br/>             
                     <div>
-                        <Link to='/disable'>
+                        <Link to='/m_printer'>
                             <Button buttonSize='btn--wide' buttonColor='blue'>
-                                {buttonLabel2}
+                                Enable
                             </Button>
                         </Link>
                     </div>
@@ -93,7 +93,7 @@ function SforMPrinter ({
             >
               <div className='col'>
                 <div className='home__hero-text-wrapper'>
-                  <div className='printer_name'>Printer 2: Ricoh Im 6000</div>
+                  <div className='printer_name'>Printer 2: Name of printer</div>
                   <p
                     className={
                       lightTextDesc
@@ -117,7 +117,7 @@ function SforMPrinter ({
                         </Button>
                     </Link>
 </div>       <br/>             <div>
-                    <Link to='/disable'>
+                    <Link to='/m_printer'>
                         <Button buttonSize='btn--wide' buttonColor='blue'>
                             {buttonLabel2}
                         </Button>
@@ -142,7 +142,7 @@ function SforMPrinter ({
             >
               <div className='col'>
                 <div className='home__hero-text-wrapper'>
-                  <div className='printer_name'>Printer 3: Toshiba e-Studio 5008A</div>
+                  <div className='printer_name'>Printer 3: Name of printer</div>
                   <p
                     className={
                       lightTextDesc
@@ -166,7 +166,56 @@ function SforMPrinter ({
                         </Button>
                     </Link>
 </div>       <br/>             <div>
-                    <Link to='/disable'>
+                    <Link to='/m_printer'>
+                        <Button buttonSize='btn--wide' buttonColor='blue'>
+                            {buttonLabel2}
+                        </Button>
+                    </Link>
+                    </div>
+                </div>
+              </div>
+              <div className='col'>
+                <div className='home__hero-img-wrapper'>
+                  <img src={img} alt={alt} className='home__img2' />
+                </div>
+              </div>
+            </div>
+{/*======================= Printer 4 page from here ============================== */}
+            <div><br/><br/></div>
+            <div
+              className='row home__hero-row lightBg'
+              style={{
+                display: 'flex',
+                flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'
+              }}
+            >
+              <div className='col'>
+                <div className='home__hero-text-wrapper'>
+                  <div className='printer_name'>Printer 4: TOSHIBA E-STUDIO 855</div>
+                  <p
+                    className={
+                      lightTextDesc
+                        ? 'printer_details'
+                        : 'home__hero-subtitle dark'
+                    }
+                  >
+                    {description}<br/>
+                    Locate in A5-Hall.
+                  </p>
+                  <div>
+                    <Link to='/printer-info4'>
+                        <Button buttonSize='btn--wide' buttonColor='blue'>
+                            {buttonLabel}
+                        </Button>
+                    </Link> 
+</div>       <br/>             <div>
+                    <Link to='/editprinter4'>
+                        <Button buttonSize='btn--wide' buttonColor='blue'>
+                            {buttonLabel1}
+                        </Button>
+                    </Link>
+</div>       <br/>             <div>
+                    <Link to='/m_printer'>
                         <Button buttonSize='btn--wide' buttonColor='blue'>
                             {buttonLabel2}
                         </Button>
@@ -187,4 +236,4 @@ function SforMPrinter ({
     );
   }
   
-  export default SforMPrinter;
+  export default MPrinter4en;

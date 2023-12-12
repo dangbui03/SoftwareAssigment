@@ -5,6 +5,7 @@
 .btn {
   padding: 8px 20px;
   border-radius: 4px;
+  margin-left: 5px;
   outline: none;
   border: none;
   cursor: pointer;
