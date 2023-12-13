@@ -48,7 +48,7 @@ export const homeObjFour = {
   headline: 'Gain Insights with Advanced Print Analytics',
   description:
     'Every print job is logged and analyzed on our secure cloud database. Stay informed with detailed analytics and optimize your printing efficiency.',
-  buttonLabel: 'Sign Up for Analytics',
+  buttonLabel: 'Sign In for Analytics',
   imgStart: 'start',
   img: 'images/8811630.jpg',
   alt: 'Print Analytics'

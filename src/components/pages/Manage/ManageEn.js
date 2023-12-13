@@ -1,13 +1,13 @@
 import { homeObjOne} from './Data';
-import MPrinter4 from '../../MPrinter4';
+import MPrinter4en from '../../MPrinter4en';
 import Footer from '../Footer.js/Footer';
-function Manage() {
+function ManageEn() {
   return (
     <> 
-      <MPrinter4 {...homeObjOne}/>
+      <MPrinter4en {...homeObjOne}/>
       <Footer></Footer>          
     </>
   );
 }
 
-export default Manage;
+export default ManageEn;

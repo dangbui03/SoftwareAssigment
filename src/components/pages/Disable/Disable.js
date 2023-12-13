@@ -1,14 +1,13 @@
-
-import SforMPrinter from '../../SforMPrinter';
+import SforMPrinterD from '../../SforMPrinterD';
 import { homeObjOne} from './Data';
 import Footer from '../Footer.js/Footer';
-function Services() {
+function Disable() {
   return (
     <>
-      <SforMPrinter {...homeObjOne} /> 
+      <SforMPrinterD {...homeObjOne} /> 
       <Footer></Footer>          
     </>
   );
 }
 
-export default Services;
+export default Disable;
