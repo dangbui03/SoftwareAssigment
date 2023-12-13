@@ -12,6 +12,7 @@ import PrinterInfo1 from './components/pages/PrinterInfo1/Info'
 import PrinterInfo2 from './components/pages/PrinterInfo2/Info'
 import PrinterInfo3 from './components/pages/PrinterInfo3/Info'
 import PrinterInfo4 from './components/pages/PrinterInfo4/Info'
+import Endis1 from './components/pages/enable_disable1/en-dis'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path='/printer-info2' element={<PrinterInfo2/>} />
         <Route path='/printer-info3' element={<PrinterInfo3/>} />
         <Route path='/printer-info4' element={<PrinterInfo4/>} />
+        <Route path='/en-dis1' element={<Endis1/>} />
       </Routes> 
     </Router>
   );
