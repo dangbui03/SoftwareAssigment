@@ -3,7 +3,7 @@ import { Button } from './Button';
 import { Link} from 'react-router-dom';
 
 
-function SforMPrinter ({
+function SforMPrinterD ({
     lightBg,
     topLine,
     lightText,
@@ -69,7 +69,7 @@ function SforMPrinter ({
                         </Link>
                     </div>       <br/>             
                     <div>
-                        <Link to='/disable'>
+                        <Link to='/services'>
                             <Button buttonSize='btn--wide' buttonColor='blue'>
                                 {buttonLabel2}
                             </Button>
@@ -117,7 +117,7 @@ function SforMPrinter ({
                         </Button>
                     </Link>
 </div>       <br/>             <div>
-                    <Link to='/disable'>
+                    <Link to='/services'>
                         <Button buttonSize='btn--wide' buttonColor='blue'>
                             {buttonLabel2}
                         </Button>
@@ -166,7 +166,7 @@ function SforMPrinter ({
                         </Button>
                     </Link>
 </div>       <br/>             <div>
-                    <Link to='/disable'>
+                    <Link to='/services'>
                         <Button buttonSize='btn--wide' buttonColor='blue'>
                             {buttonLabel2}
                         </Button>
@@ -187,4 +187,4 @@ function SforMPrinter ({
     );
   }
   
-  export default SforMPrinter;
+  export default SforMPrinterD;

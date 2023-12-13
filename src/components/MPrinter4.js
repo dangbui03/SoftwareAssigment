@@ -62,14 +62,14 @@ function MPrinter4 ({
                         </Link> 
                     </div>       <br/>             
                     <div>
-                        <Link to='/sign-up'>
+                        <Link to='/editprinter'>
                             <Button buttonSize='btn--wide' buttonColor='blue'>
                                 {buttonLabel1}
                             </Button>
                         </Link>
                     </div>       <br/>             
                     <div>
-                        <Link to='/sign-up'>
+                        <Link to='/m_printerEn'>
                             <Button buttonSize='btn--wide' buttonColor='blue'>
                                 {buttonLabel2}
                             </Button>
@@ -111,13 +111,13 @@ function MPrinter4 ({
                         </Button>
                     </Link> 
 </div>       <br/>             <div>
-                    <Link to='/sign-up'>
+                    <Link to='/editprinter2'>
                         <Button buttonSize='btn--wide' buttonColor='blue'>
                             {buttonLabel1}
                         </Button>
                     </Link>
 </div>       <br/>             <div>
-                    <Link to='/sign-up'>
+                    <Link to='/m_printerEn'>
                         <Button buttonSize='btn--wide' buttonColor='blue'>
                             {buttonLabel2}
                         </Button>
@@ -160,13 +160,13 @@ function MPrinter4 ({
                         </Button>
                     </Link> 
 </div>       <br/>             <div>
-                    <Link to='/sign-up'>
+                    <Link to='/editprinter3'>
                         <Button buttonSize='btn--wide' buttonColor='blue'>
                             {buttonLabel1}
                         </Button>
                     </Link>
 </div>       <br/>             <div>
-                    <Link to='/sign-up'>
+                    <Link to='/m_printerEn'>
                         <Button buttonSize='btn--wide' buttonColor='blue'>
                             {buttonLabel2}
                         </Button>
@@ -191,7 +191,7 @@ function MPrinter4 ({
             >
               <div className='col'>
                 <div className='home__hero-text-wrapper'>
-                  <div className='printer_name'>Printer 4: Name of printer</div>
+                  <div className='printer_name'>Printer 4: TOSHIBA E-STUDIO 855</div>
                   <p
                     className={
                       lightTextDesc
@@ -209,13 +209,13 @@ function MPrinter4 ({
                         </Button>
                     </Link> 
 </div>       <br/>             <div>
-                    <Link to='/sign-up'>
+                    <Link to='/editprinter4'>
                         <Button buttonSize='btn--wide' buttonColor='blue'>
                             {buttonLabel1}
                         </Button>
                     </Link>
 </div>       <br/>             <div>
-                    <Link to='/sign-up'>
+                    <Link to='/m_printerEn'>
                         <Button buttonSize='btn--wide' buttonColor='blue'>
                             {buttonLabel2}
                         </Button>

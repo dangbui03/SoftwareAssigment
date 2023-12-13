@@ -10,10 +10,12 @@ export const homeObjOne = {
   Model: Toshiba e-Studio 855
   Status: In use
   Location: 
-  Campus name: Đại học bách khoa lý thường kiệt
-  Building name: B10 building Corner 
-  Room number: B10-202
-  Description: open from 7am - 5pm
+  Campus name: Đại học Bách Khoa cs1 
+  Building name: B4 building Corner 
+  Room number: B4-303
+  Description: 
+  Open from 7am - 5pm on weekdays.
+  Open from 9am - 4pm on weekends.
   `,
   imgStart: '',
   img: 'images/May-Photocopy-Toshiba-e-Studio-2508A.png',
