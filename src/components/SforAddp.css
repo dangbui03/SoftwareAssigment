@@ -134,3 +134,7 @@
 li {
     margin-left: 15px ;
 }
+
+.button-container{
+  align-items: center;
+}

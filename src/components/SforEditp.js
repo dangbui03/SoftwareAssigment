@@ -3,7 +3,7 @@ import './SforAddp.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
-function SforAddp({
+function SforEditp({
   lightBg,
   topLine,
   lightText,
@@ -13,7 +13,13 @@ function SforAddp({
   buttonLabel,
   img,
   alt,
-  imgStart
+  imgStart,
+  Brand,
+  Model,
+  Status,
+  Campus,
+  Building_name,
+  Room_number
 }) {
   return (
     <>
@@ -50,7 +56,7 @@ function SforAddp({
                                 <input
                                     className='no-border-input'
                                     type="text"
-                                    placeholder=""
+                                    placeholder={Brand}
                                 />
                         </label>
                     </li>
@@ -60,7 +66,7 @@ function SforAddp({
                                 <input
                                     className='no-border-input'
                                     type="text"
-                                    placeholder=""
+                                    placeholder={Model}
                                 />
                         </label>
                     </li><li>
@@ -69,7 +75,7 @@ function SforAddp({
                                 <input
                                     className='no-border-input'
                                     type="text"
-                                    placeholder=""
+                                    placeholder={Status}
                                 />
                         </label>
                     </li>
@@ -82,7 +88,8 @@ function SforAddp({
                                 <input
                                     className='no-border-input'
                                     type="text"
-                                    placeholder=""
+                                    placeholder={Campus}
+                                    
                                 />
                         </label>
                     </li>
@@ -92,7 +99,7 @@ function SforAddp({
                                 <input
                                     className='no-border-input'
                                     type="text"
-                                    placeholder=""
+                                    placeholder={Building_name}
                                 />
                         </label>
                     </li>
@@ -102,7 +109,7 @@ function SforAddp({
                                 <input
                                     className='no-border-input'
                                     type="text"
-                                    placeholder=""
+                                    placeholder={Room_number}
                                 />
                         </label>
                     </li>
@@ -114,7 +121,7 @@ function SforAddp({
                 <div  class="button-container" >
                     <Link to='/m_printer'>
                         <Button buttonSize='btn--small' buttonColor='blue'>
-                        Add 
+                        {buttonLabel}
                     </Button>
                     </Link>
                     <Link to='/services'>
@@ -137,4 +144,4 @@ function SforAddp({
   );
 }
 
-export default SforAddp;
+export default SforEditp;
