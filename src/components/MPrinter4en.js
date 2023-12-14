@@ -51,11 +51,11 @@ function MPrinter4en ({
                         : 'home__hero-subtitle dark'
                     }
                   >
-                    {description}<br/>
+                    Out of date<br/>
                     Locate in B4-303.
                   </p>
                     <div>
-                        <Link to='/printer-info1'>
+                        <Link to='/printer-info1-notuse'>
                             <Button buttonSize='btn--wide' buttonColor='blue'>
                                 {buttonLabel}
                             </Button>
@@ -93,7 +93,7 @@ function MPrinter4en ({
             >
               <div className='col'>
                 <div className='home__hero-text-wrapper'>
-                  <div className='printer_name'>Printer 2: Name of printer</div>
+                  <div className='printer_name'>Printer 2: RICOH IM 6000</div>
                   <p
                     className={
                       lightTextDesc
@@ -101,11 +101,11 @@ function MPrinter4en ({
                         : 'home__hero-subtitle dark'
                     }
                   >
-                    {description}<br/>
+                    Out of date<br/>
                     Locate in C6-404.
                   </p>
                   <div>
-                    <Link to='/printer-info2'>
+                    <Link to='/printer-info2-notuse'>
                         <Button buttonSize='btn--wide' buttonColor='blue'>
                             {buttonLabel}
                         </Button>
@@ -142,7 +142,7 @@ function MPrinter4en ({
             >
               <div className='col'>
                 <div className='home__hero-text-wrapper'>
-                  <div className='printer_name'>Printer 3: Name of printer</div>
+                  <div className='printer_name'>Printer 3: TOSHIBA E-STUDIO 5008A</div>
                   <p
                     className={
                       lightTextDesc
@@ -150,11 +150,11 @@ function MPrinter4en ({
                         : 'home__hero-subtitle dark'
                     }
                   >
-                    {description}<br/>
+                    Out of date<br/>
                     Locate in A4-404.
                   </p>
                   <div>
-                    <Link to='/printer-info3'>
+                    <Link to='/printer-info3-notuse'>
                         <Button buttonSize='btn--wide' buttonColor='blue'>
                             {buttonLabel}
                         </Button>
@@ -199,11 +199,11 @@ function MPrinter4en ({
                         : 'home__hero-subtitle dark'
                     }
                   >
-                    {description}<br/>
+                    Out of date<br/>
                     Locate in A5-Hall.
                   </p>
                   <div>
-                    <Link to='/printer-info4'>
+                    <Link to='/printer-info4-notuse'>
                         <Button buttonSize='btn--wide' buttonColor='blue'>
                             {buttonLabel}
                         </Button>

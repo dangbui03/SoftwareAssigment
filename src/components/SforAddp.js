@@ -50,7 +50,7 @@ function SforAddp({
                                 <input
                                     className='no-border-input'
                                     type="text"
-                                    placeholder=""
+                                    placeholder="Toshiba"
                                 />
                         </label>
                     </li>
@@ -60,7 +60,7 @@ function SforAddp({
                                 <input
                                     className='no-border-input'
                                     type="text"
-                                    placeholder=""
+                                    placeholder="Toshiba e-Studio 855"
                                 />
                         </label>
                     </li><li>
@@ -69,7 +69,7 @@ function SforAddp({
                                 <input
                                     className='no-border-input'
                                     type="text"
-                                    placeholder=""
+                                    placeholder="In use"
                                 />
                         </label>
                     </li>
@@ -82,7 +82,7 @@ function SforAddp({
                                 <input
                                     className='no-border-input'
                                     type="text"
-                                    placeholder=""
+                                    placeholder="Đại học Bách Khoa cs1"
                                 />
                         </label>
                     </li>
@@ -92,7 +92,7 @@ function SforAddp({
                                 <input
                                     className='no-border-input'
                                     type="text"
-                                    placeholder=""
+                                    placeholder="A5 building"
                                 />
                         </label>
                     </li>
@@ -102,7 +102,7 @@ function SforAddp({
                                 <input
                                     className='no-border-input'
                                     type="text"
-                                    placeholder=""
+                                    placeholder="A5-Hall"
                                 />
                         </label>
                     </li>

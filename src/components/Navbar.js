@@ -42,7 +42,7 @@ const Navbar = () => {
     try {
       // Simulating an asynchronous login request to a server
       const loginResponse = await new Promise((resolve) =>
-        setTimeout(() => resolve(fakeUser), 2500)
+        setTimeout(() => resolve(fakeUser), 6000)
       );
 
       // Check if the login was successful based on the response
@@ -99,15 +99,15 @@ const Navbar = () => {
                   Manage Printer
                 </Link>
               </li>
-              <li className='nav-item'>
+              {/* <li className='nav-item'>
                 <Link
                   to='/products'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
-                  Products
+                  Print
                 </Link>
-              </li>
+              </li> */}
               <li className='nav-btn'>
                 {isLoggedIn ? (
                   <Button buttonStyle='btn--outline' onClick={handleLogout}>
