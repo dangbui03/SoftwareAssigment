@@ -13,7 +13,7 @@ import Editprinter3 from './components/pages/Editprinter/Editprinter3';
 import Editprinter4 from './components/pages/Editprinter/Editprinter4';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Login from './components/pages/SignUp/Data';
+import Login from './components/pages/SignIn/Data';
 import PrinterInfo1 from './components/pages/PrinterInfo1/Info'
 import PrinterInfo2 from './components/pages/PrinterInfo2/Info'
 import PrinterInfo3 from './components/pages/PrinterInfo3/Info'
@@ -28,7 +28,7 @@ function App() {
         <Route path='/services' element={<Services />} />
         <Route path='/disable' element={<Disable />} />
         <Route path='/products' element={<Products />} />
-        <Route path='/sign-up' element={<Login />} />
+        <Route path='/sign-in' element={<Login />} />
         <Route path='/m_printer'element={<Manage />}/>
         <Route path='/m_printerEn'element={<ManageEn />}/>
         <Route path='/addprinter'element={<Addprinter />}/>

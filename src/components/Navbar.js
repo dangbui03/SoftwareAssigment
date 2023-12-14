@@ -1,14 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom'; // Import useNavigate
 import './Navbar.css';
-import { IoMdPrint } from "react-icons/io";
+import { IoMdPrint } from 'react-icons/io';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 
-function Navbar() {
+
+const Navbar = () => {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const navigate = useNavigate(); // useNavigate hook
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -24,13 +27,50 @@ function Navbar() {
   useEffect(() => {
     showButton();
     window.addEventListener('resize', showButton);
-  
+
     // Cleanup function to remove the event listener when the component unmounts
     return () => {
       window.removeEventListener('resize', showButton);
     };
   }, []);
+  const fakeUser = {
+    id: 1,
+    name: 'Lam Hoang',
+    email: 'lam.nguyen220103@hcmut.edu.vn',
+  };
+  const handleLogin = async () => {
+    try {
+      // Simulating an asynchronous login request to a server
+      const loginResponse = await new Promise((resolve) =>
+        setTimeout(() => resolve(fakeUser), 2500)
+      );
 
+      // Check if the login was successful based on the response
+      if (loginResponse) {
+        // Update the user state or set a token in local storage
+        setIsLoggedIn(true);
+        console.log('Login successful:', loginResponse);
+
+        // Redirect to the homepage
+        navigate('/');
+      } else {
+        // Handle login failure
+        console.log('Login failed');
+      }
+    } catch (error) {
+      console.error('Error during login:', error);
+    }
+  };
+
+  const handleLogout = () => {
+    // Simulating a logout action
+    // For simplicity, we directly update the user state
+    setIsLoggedIn(false);
+    console.log('Logout successful');
+
+    // Redirect to the homepage
+    navigate('/');
+  };
 
   return (
     <>
@@ -69,22 +109,29 @@ function Navbar() {
                 </Link>
               </li>
               <li className='nav-btn'>
-                {button ? (
-                  <Link to='/sign-up' className='btn-link'>
-                    <Button buttonStyle='btn--outline'>SIGN IN</Button>
-                  </Link>
+                {isLoggedIn ? (
+                  <Button buttonStyle='btn--outline' onClick={handleLogout}>
+                    Logout
+                  </Button>
                 ) : (
-                  <Link to='/sign-up' className='btn-link'>
-                    <Button
-                      buttonStyle='btn--outline'
-                      buttonSize='btn--mobile'
-                      onClick={closeMobileMenu}
-                    >
-                      SIGN IN
-                    </Button>
-                  </Link>
+                  button ? (
+                    <Link to='/sign-in' className='btn-link'>
+                      <Button buttonStyle='btn--outline' onClick={handleLogin}>
+                        SIGN IN
+                      </Button>
+                    </Link>
+                  ) : (
+                    <Link to='/sign-in' className='btn-link'>
+                      <Button
+                        buttonStyle='btn--outline'
+                        buttonSize='btn--mobile'
+                        onClick={handleLogin}
+                      >
+                        SIGN IN
+                      </Button>
+                    </Link>
+                  )
                 )}
-                
               </li>
             </ul>
           </div>
@@ -92,6 +139,6 @@ function Navbar() {
       </IconContext.Provider>
     </>
   );
-}
+};
 
 export default Navbar;
