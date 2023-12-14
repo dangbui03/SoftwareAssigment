@@ -2,7 +2,7 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Printer 1: Name of Printer',
+    topLine: 'Printer 1: TOSHIBA E-STUDIO 855',
     headline: 'All the services from view to edit printers',
     description:
       'Ready to use.',

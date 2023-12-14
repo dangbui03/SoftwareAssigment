@@ -14,10 +14,14 @@ import Editprinter4 from './components/pages/Editprinter/Editprinter4';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Login from './components/pages/SignUp/Data';
-import PrinterInfo1 from './components/pages/PrinterInfo1/Info'
-import PrinterInfo2 from './components/pages/PrinterInfo2/Info'
-import PrinterInfo3 from './components/pages/PrinterInfo3/Info'
-import PrinterInfo4 from './components/pages/PrinterInfo4/Info'
+import PrinterInfo1 from './components/pages/PrinterInfo1/Info_InUse'
+import PrinterInfo15 from './components/pages/PrinterInfo1/Info_NotUse'
+import PrinterInfo2 from './components/pages/PrinterInfo2/Info_InUse'
+import PrinterInfo25 from './components/pages/PrinterInfo2/Info_NotUse'
+import PrinterInfo3 from './components/pages/PrinterInfo3/Info_InUse'
+import PrinterInfo35 from './components/pages/PrinterInfo2/Info_NotUse'
+import PrinterInfo4 from './components/pages/PrinterInfo4/Info_InUse'
+import PrinterInfo45 from './components/pages/PrinterInfo2/Info_NotUse'
 import Endis1 from './components/pages/enable_disable1/en-dis'
 
 function App() {
@@ -38,9 +42,13 @@ function App() {
         <Route path='/editprinter3'element={<Editprinter3 />}/>
         <Route path='/editprinter4'element={<Editprinter4 />}/>
         <Route path='/printer-info1' element={<PrinterInfo1/>} />
+        <Route path='/printer-info1-notuse' element={<PrinterInfo15/>} />
         <Route path='/printer-info2' element={<PrinterInfo2/>} />
+        <Route path='/printer-info2-notuse' element={<PrinterInfo25/>} />
         <Route path='/printer-info3' element={<PrinterInfo3/>} />
+        <Route path='/printer-info3-notuse' element={<PrinterInfo35/>} />
         <Route path='/printer-info4' element={<PrinterInfo4/>} />
+        <Route path='/printer-info4-notuse' element={<PrinterInfo45/>} />
         <Route path='/en-dis1' element={<Endis1/>} />
       </Routes> 
     </Router>

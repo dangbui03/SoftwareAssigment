@@ -51,11 +51,11 @@ function SforMPrinterD ({
                         : 'home__hero-subtitle dark'
                     }
                   >
-                    {description}<br/>
+                    Out of date<br/>
                     Locate in B4-303.
                   </p>
                     <div>
-                        <Link to='/printer-info1'>
+                        <Link to='/printer-info1-notuse'>
                             <Button buttonSize='btn--wide' buttonColor='blue'>
                                 {buttonLabel}
                             </Button>
@@ -101,11 +101,11 @@ function SforMPrinterD ({
                         : 'home__hero-subtitle dark'
                     }
                   >
-                    {description}<br/>
+                    Out of date<br/>
                     Locate in C6-404.
                   </p>
                   <div>
-                    <Link to='/printer-info2'>
+                    <Link to='/printer-info2-notuse'>
                         <Button buttonSize='btn--wide' buttonColor='blue'>
                             {buttonLabel}
                         </Button>
@@ -150,11 +150,11 @@ function SforMPrinterD ({
                         : 'home__hero-subtitle dark'
                     }
                   >
-                    {description}<br/>
+                    Out of date<br/>
                     Locate in A4-404.
                   </p>
                   <div>
-                    <Link to='/printer-info3'>
+                    <Link to='/printer-info3-notuse'>
                         <Button buttonSize='btn--wide' buttonColor='blue'>
                             {buttonLabel}
                         </Button>

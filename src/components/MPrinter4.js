@@ -93,7 +93,7 @@ function MPrinter4 ({
             >
               <div className='col'>
                 <div className='home__hero-text-wrapper'>
-                  <div className='printer_name'>Printer 2: Name of printer</div>
+                  <div className='printer_name'>Printer 2: RICOH IM 6000</div>
                   <p
                     className={
                       lightTextDesc
@@ -142,7 +142,7 @@ function MPrinter4 ({
             >
               <div className='col'>
                 <div className='home__hero-text-wrapper'>
-                  <div className='printer_name'>Printer 3: Name of printer</div>
+                  <div className='printer_name'>Printer 3: TOSHIBA E-STUDIO 5008A</div>
                   <p
                     className={
                       lightTextDesc
